@@ -1,0 +1,1642 @@
+{
+  "destinations": [
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "Fushimi Inari Shrine torii gate hike",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Arashiyama Bamboo Grove walk",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Kaiseki multi-course dinner",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 120,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Gion district geisha-spotting stroll",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Nishiki Market street food crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Traditional tea ceremony",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Kinkaku-ji (Golden Pavilion) visit",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 6,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Ryokan onsen hot spring evening",
+          "category": "relaxation",
+          "cost_tier": "luxury",
+          "cost": 150,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "teamLab digital art museum",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Tsukiji Outer Market sushi breakfast",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Shibuya Crossing & Center Gai night walk",
+          "category": "nightlife",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Golden Gai bar hopping",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 50,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Senso-ji Temple in Asakusa",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Robot Restaurant neon dinner show",
+          "category": "nightlife",
+          "cost_tier": "luxury",
+          "cost": 90,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Mt. Takao day hike",
+          "category": "adventure",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 1
+        },
+        {
+          "name": "Ghibli Museum visit",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Louvre Museum masterpieces tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 22,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Eiffel Tower summit at sunset",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Seine river dinner cruise",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 110,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Montmartre & Sacre-Coeur walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Le Marais patisserie crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 18,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Moulin Rouge cabaret show",
+          "category": "nightlife",
+          "cost_tier": "luxury",
+          "cost": 140,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Le Comptoir wine bar evening",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Luxembourg Gardens picnic",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Rome",
+      "country": "Italy",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Colosseum & Roman Forum tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 28,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Vatican Museums & Sistine Chapel",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 32,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Trastevere trattoria dinner",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Trevi Fountain & gelato walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Street-food pasta crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Rooftop aperitivo evening",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Appian Way bike ride",
+          "category": "adventure",
+          "cost_tier": "budget",
+          "cost": 20,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Michelin-starred tasting menu",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 180,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Barcelona",
+      "country": "Spain",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Sagrada Familia guided tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Park Guell mosaic wander",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.25
+        },
+        {
+          "name": "La Boqueria tapas crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 20,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Barceloneta beach afternoon",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Gothic Quarter flamenco show",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 38,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Beach club night with DJs",
+          "category": "nightlife",
+          "cost_tier": "luxury",
+          "cost": 95,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Montserrat mountain hike",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 25,
+          "days_needed": 1
+        },
+        {
+          "name": "Fine-dining Catalan tasting menu",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 130,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Lisbon",
+      "country": "Portugal",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Alfama tram & viewpoint tour",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 3,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Belem pastel de nata tasting",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Fado music dinner house",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 42,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Bairro Alto bar crawl",
+          "category": "nightlife",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Sintra palaces day trip",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 1
+        },
+        {
+          "name": "LX Factory rooftop cocktails",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Cascais coastal beach day",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Michelin seafood tasting menu",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 150,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Rijksmuseum Dutch masters tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 22,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Canal ring bike tour",
+          "category": "adventure",
+          "cost_tier": "budget",
+          "cost": 18,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Jordaan cafe hopping",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 20,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Anne Frank House visit",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 16,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Red Light District night walk",
+          "category": "nightlife",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Canal-side jazz club evening",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Vondelpark picnic & relax",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Private canal dinner cruise",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 120,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Prague",
+      "country": "Czech Republic",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Prague Castle & St. Vitus tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 20,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Charles Bridge sunrise walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Old Town beer hall crawl",
+          "category": "nightlife",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Traditional goulash dinner",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 12,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Jazz cellar club night",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Vltava river cruise dinner",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 55,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Astronomical Clock & Old Town Square",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Michelin Czech tasting menu",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 110,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Istanbul",
+      "country": "Turkey",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "Hagia Sophia & Blue Mosque tour",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Grand Bazaar shopping crawl",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Bosphorus sunset cruise",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Turkish hamam spa experience",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 55,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Street kebab & baklava crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Rooftop terrace dinner with view",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 95,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Balat colorful streets walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Whirling dervish ceremony",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Marrakech",
+      "country": "Morocco",
+      "region": "Africa",
+      "activities": [
+        {
+          "name": "Jemaa el-Fna night market",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Majorelle Garden visit",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Atlas Mountains day trek",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 1
+        },
+        {
+          "name": "Traditional hammam & spa",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Tagine cooking class",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Medina souk shopping crawl",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Desert quad-biking excursion",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 85,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Rooftop riad dinner with view",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 90,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Cape Town",
+      "country": "South Africa",
+      "region": "Africa",
+      "activities": [
+        {
+          "name": "Table Mountain cable car hike",
+          "category": "nature",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Cape Point & Boulders penguins",
+          "category": "nature",
+          "cost_tier": "mid",
+          "cost": 25,
+          "days_needed": 1
+        },
+        {
+          "name": "Robben Island history tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Bo-Kaap colorful neighborhood walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Winelands vineyard tasting",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 80,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Shark cage diving excursion",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 200,
+          "days_needed": 0.5
+        },
+        {
+          "name": "V&A Waterfront seafood dinner",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Camps Bay sunset beach relax",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Blue Lagoon geothermal spa",
+          "category": "relaxation",
+          "cost_tier": "luxury",
+          "cost": 90,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Golden Circle waterfalls tour",
+          "category": "nature",
+          "cost_tier": "mid",
+          "cost": 60,
+          "days_needed": 1
+        },
+        {
+          "name": "Northern Lights night tour",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 70,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Glacier hiking excursion",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 150,
+          "days_needed": 1
+        },
+        {
+          "name": "Reykjavik harbor whale watching",
+          "category": "nature",
+          "cost_tier": "mid",
+          "cost": 65,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Local lamb soup & street food",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Downtown craft-beer bar crawl",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Hallgrimskirkja & city walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Bali",
+      "country": "Indonesia",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "Ubud rice terrace trek",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Uluwatu Temple sunset & dance",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Traditional Balinese spa massage",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Mount Batur sunrise volcano hike",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 1
+        },
+        {
+          "name": "Seminyak beach club day",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Warung local food crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 12,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Private villa infinity-pool retreat",
+          "category": "relaxation",
+          "cost_tier": "luxury",
+          "cost": 120,
+          "days_needed": 0.5
+        },
+        {
+          "name": "White-water rafting Ayung River",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 50,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "Grand Palace & Wat Phra Kaew",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Chatuchak weekend market crawl",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Street pad thai & mango sticky rice",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Khao San Road night market",
+          "category": "nightlife",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Rooftop skybar cocktails",
+          "category": "nightlife",
+          "cost_tier": "luxury",
+          "cost": 85,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Chao Phraya river dinner cruise",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 55,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Thai cooking class",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Traditional Thai massage & spa",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Singapore",
+      "country": "Singapore",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "Gardens by the Bay light show",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 20,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Hawker center food crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Sentosa Island beach day",
+          "category": "relaxation",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Marina Bay Sands rooftop bar",
+          "category": "nightlife",
+          "cost_tier": "luxury",
+          "cost": 90,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Chinatown & Little India walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Night Safari zoo tour",
+          "category": "nature",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Clarke Quay nightlife crawl",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 50,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Michelin hawker tasting menu",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 95,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Sydney",
+      "country": "Australia",
+      "region": "Oceania",
+      "activities": [
+        {
+          "name": "Sydney Opera House tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 25,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Bondi to Coogee coastal walk",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 1
+        },
+        {
+          "name": "Sydney Harbour Bridge climb",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 250,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Bondi Beach surf lesson",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 60,
+          "days_needed": 0.5
+        },
+        {
+          "name": "The Rocks Saturday markets",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Darling Harbour dinner cruise",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 100,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Rooftop bar sunset drinks",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Royal Botanic Garden picnic",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Queenstown",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "activities": [
+        {
+          "name": "Nevis Bungy jump",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 220,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Milford Sound fjord cruise",
+          "category": "nature",
+          "cost_tier": "luxury",
+          "cost": 150,
+          "days_needed": 1
+        },
+        {
+          "name": "Shotover Jet speedboat ride",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 130,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Queenstown Hill day hike",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Lakefront picnic & relax",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Local venison & wine dinner",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 55,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Skyline gondola & luge",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Craft brewery bar crawl",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "region": "South America",
+      "activities": [
+        {
+          "name": "Christ the Redeemer & Corcovado",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Sugarloaf Mountain cable car",
+          "category": "nature",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Copacabana beach volleyball day",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Samba show & dinner",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 55,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Favela community walking tour",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 20,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Lapa nightlife street party",
+          "category": "nightlife",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Tijuca rainforest hike",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 1
+        },
+        {
+          "name": "Churrascaria all-you-can-eat dinner",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "region": "South America",
+      "activities": [
+        {
+          "name": "La Boca colorful streets walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Tango show with dinner",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 60,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Recoleta Cemetery & museum tour",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 8,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Parrilla steakhouse feast",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.5
+        },
+        {
+          "name": "San Telmo Sunday market crawl",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Palermo rooftop bar night",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Puerto Madero riverside relax",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Luxury tango dinner cruise",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 130,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "USA",
+      "region": "North America",
+      "activities": [
+        {
+          "name": "Metropolitan Museum of Art",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Central Park bike ride",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Broadway show evening",
+          "category": "nightlife",
+          "cost_tier": "luxury",
+          "cost": 150,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Brooklyn pizza & bagel crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 20,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Top of the Rock sunset view",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Speakeasy cocktail bar night",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.5
+        },
+        {
+          "name": "High Line elevated park walk",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Michelin tasting menu dinner",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 220,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Vancouver",
+      "country": "Canada",
+      "region": "North America",
+      "activities": [
+        {
+          "name": "Stanley Park seawall bike ride",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Grouse Mountain grind hike",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 55,
+          "days_needed": 1
+        },
+        {
+          "name": "Granville Island market crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Capilano Suspension Bridge",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 50,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Gastown historic district walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Whale watching boat tour",
+          "category": "nature",
+          "cost_tier": "luxury",
+          "cost": 130,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Craft brewery bar crawl",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Fine dining West Coast tasting menu",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 140,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Dubai",
+      "country": "UAE",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "Burj Khalifa observation deck",
+          "category": "culture",
+          "cost_tier": "luxury",
+          "cost": 90,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Desert safari & dune bashing",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 110,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Dubai Mall & fountain show",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Souk spice market crawl",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Skydive over Palm Jumeirah",
+          "category": "adventure",
+          "cost_tier": "luxury",
+          "cost": 400,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Rooftop lounge night",
+          "category": "nightlife",
+          "cost_tier": "luxury",
+          "cost": 95,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Beachfront brunch buffet",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 120,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Marina waterfront relax walk",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Santorini",
+      "country": "Greece",
+      "region": "Europe",
+      "activities": [
+        {
+          "name": "Oia sunset caldera walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Catamaran sunset cruise",
+          "category": "relaxation",
+          "cost_tier": "luxury",
+          "cost": 130,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Red Beach & volcanic coast",
+          "category": "nature",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Wine tasting at local vineyard",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Fira to Oia caldera hike",
+          "category": "adventure",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 1
+        },
+        {
+          "name": "Cliffside taverna seafood dinner",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 50,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Infinity pool villa relax day",
+          "category": "relaxation",
+          "cost_tier": "luxury",
+          "cost": 150,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Akrotiri archaeological site tour",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 12,
+          "days_needed": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Cusco",
+      "country": "Peru",
+      "region": "South America",
+      "activities": [
+        {
+          "name": "Machu Picchu guided day tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 70,
+          "days_needed": 1
+        },
+        {
+          "name": "Sacred Valley Inca ruins tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 45,
+          "days_needed": 1
+        },
+        {
+          "name": "Rainbow Mountain trek",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 55,
+          "days_needed": 1
+        },
+        {
+          "name": "San Pedro Market food crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Traditional pisco sour tasting",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 12,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Cusco Cathedral & Plaza de Armas",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Andean cooking class",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Luxury Andean spa retreat",
+          "category": "relaxation",
+          "cost_tier": "luxury",
+          "cost": 100,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Seoul",
+      "country": "South Korea",
+      "region": "Asia",
+      "activities": [
+        {
+          "name": "Gyeongbokgung Palace tour",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 3,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Myeongdong street food crawl",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 15,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Hongdae nightlife district",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Bukchon Hanok Village walk",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 0,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Korean BBQ feast",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Han River night picnic",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Noraebang karaoke night",
+          "category": "nightlife",
+          "cost_tier": "mid",
+          "cost": 30,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Luxury spa jjimjilbang experience",
+          "category": "relaxation",
+          "cost_tier": "luxury",
+          "cost": 85,
+          "days_needed": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Cairo",
+      "country": "Egypt",
+      "region": "Africa",
+      "activities": [
+        {
+          "name": "Pyramids of Giza & Sphinx tour",
+          "category": "culture",
+          "cost_tier": "mid",
+          "cost": 35,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Egyptian Museum artifacts tour",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 12,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Khan el-Khalili bazaar crawl",
+          "category": "culture",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Nile river dinner cruise",
+          "category": "food",
+          "cost_tier": "mid",
+          "cost": 50,
+          "days_needed": 0.5
+        },
+        {
+          "name": "Camel ride at sunset",
+          "category": "adventure",
+          "cost_tier": "mid",
+          "cost": 40,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Felucca sailboat relax ride",
+          "category": "relaxation",
+          "cost_tier": "budget",
+          "cost": 10,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Traditional koshari street food",
+          "category": "food",
+          "cost_tier": "budget",
+          "cost": 5,
+          "days_needed": 0.25
+        },
+        {
+          "name": "Luxury desert glamping dinner",
+          "category": "food",
+          "cost_tier": "luxury",
+          "cost": 120,
+          "days_needed": 0.5
+        }
+      ]
+    }
+  ]
+}

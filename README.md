@@ -144,6 +144,30 @@ The suite (`tests/test_itinerary.py`) covers, among other things:
 - the reported cost total is always the exact sum of chosen activities
 - "surprise me" destination picking and full seed-reproducibility
 
+## Troubleshooting / FAQ
+
+**"Error: Unknown destination: 'Paris'..."** — destination lookup is an
+exact (case-insensitive) match against `data/destinations.json`. The error
+message lists every known destination name; check spelling/accents (e.g.
+it's `"Rio de Janeiro"`, not `"Rio"`), or use `--destination "surprise me"`
+to let the planner pick one for you.
+
+**"Note: ran out of unique activities..." after just 1-2 days.** Small
+destinations have a fixed pool of ~8 activities. A `packed` pace (4/day) on
+a `budget` tier trip (which excludes `mid`/`luxury` activities) can run out
+of eligible, not-yet-used activities well before the requested day count.
+Try a lower pace, a higher budget tier, or a shorter trip.
+
+**"Error: days=5000 is unreasonably large..."** — this is almost always a
+typo (e.g. `--days 5000` instead of `--days 5`). The planner caps trips at
+`MAX_DAYS` (90) days.
+
+**Why does the same `--seed` sometimes give a different itinerary after I
+upgrade?** All randomness is seeded through `random.Random(seed)`, so
+results are reproducible *for a given version of the code and dataset*.
+Adding/removing destinations or activities, or changing the weighting
+algorithm, can change which draws come out of the same seed.
+
 ## Project layout
 
 ```

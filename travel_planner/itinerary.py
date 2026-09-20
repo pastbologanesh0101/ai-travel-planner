@@ -39,6 +39,11 @@ VALID_CATEGORIES = {
 # to be picked than a non-matching activity of equal availability.
 INTEREST_WEIGHT_MULTIPLIER = 4
 
+# A generous but finite upper bound on trip length. This mostly exists to
+# catch typos (e.g. "--days 5000" instead of "--days 5") with a clear error
+# instead of silently generating a multi-year itinerary.
+MAX_DAYS = 90
+
 
 class PlannerError(ValueError):
     """Raised for invalid planner input, such as an unknown destination."""
@@ -140,6 +145,11 @@ def generate_itinerary(
     """
     if not isinstance(days, int) or days < 1:
         raise PlannerError("days must be a positive integer")
+    if days > MAX_DAYS:
+        raise PlannerError(
+            f"days={days} is unreasonably large (max {MAX_DAYS}). "
+            "Double-check the --days value -- this is usually a typo."
+        )
     if pace not in PACE_ACTIVITIES_PER_DAY:
         raise PlannerError(
             f"Unknown pace: {pace!r}. Choose from {list(PACE_ACTIVITIES_PER_DAY)}."

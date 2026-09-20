@@ -259,6 +259,18 @@ class ItineraryGenerationTests(unittest.TestCase):
                 pace="moderate",
             )
 
+    def test_excessively_large_days_value_raises_clear_error(self):
+        # Catches likely typos like "--days 5000" instead of "--days 5"
+        # with a clear message instead of generating a multi-year plan.
+        with self.assertRaises(PlannerError):
+            generate_itinerary(
+                destination="Kyoto",
+                days=5000,
+                budget="mid",
+                interests=[],
+                pace="moderate",
+            )
+
     def test_graceful_handling_when_activities_run_out(self):
         # Requesting far more days than a destination has unique activities
         # for should not crash or produce duplicates; it should simply stop

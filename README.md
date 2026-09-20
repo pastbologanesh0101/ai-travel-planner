@@ -1,5 +1,9 @@
 # AI Travel Planner
 
+[![tests](https://github.com/pastbologanesh0101/ai-travel-planner/actions/workflows/tests.yml/badge.svg)](https://github.com/pastbologanesh0101/ai-travel-planner/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue.svg)](.github/workflows/tests.yml)
+
 A small, fully offline, rule-based trip itinerary generator. Give it a
 destination (or let it surprise you), a trip length, a budget tier, your
 interests, and a pace — it produces a day-by-day itinerary with a running
@@ -9,6 +13,17 @@ There is **no LLM in the loop and no live maps/flights API**. "AI" here
 means the classic sense: a constraint-based expert system. All content comes
 from a bundled local dataset (`data/destinations.json`) and all selection
 logic is deterministic, seedable Python.
+
+## Table of contents
+
+- [Methodology](#methodology)
+- [Installation](#installation)
+- [How to run](#how-to-run)
+- [Example output](#example-output)
+- [Running the tests](#running-the-tests)
+- [Project layout](#project-layout)
+- [Troubleshooting / FAQ](#troubleshooting--faq)
+- [License](#license)
 
 ## Methodology
 

@@ -314,6 +314,30 @@ class CLIEndToEndTests(unittest.TestCase):
         self.assertIn("Trip to Kyoto", result.stdout)
         self.assertIn("Estimated total cost:", result.stdout)
 
+    def test_cli_list_destinations_flag_prints_names_without_days(self):
+        import subprocess
+
+        script_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "plan.py")
+        result = subprocess.run(
+            [sys.executable, script_path, "--list-destinations"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Kyoto", result.stdout)
+
+    def test_cli_missing_days_without_list_flag_is_an_error(self):
+        import subprocess
+
+        script_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "plan.py")
+        result = subprocess.run(
+            [sys.executable, script_path, "--destination", "Kyoto"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("--days is required", result.stderr)
+
     def test_cli_reports_error_for_unknown_destination(self):
         import subprocess
 

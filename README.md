@@ -86,6 +86,7 @@ Arguments:
 | `--interests` | Comma-separated: `culture,nature,food,nightlife,adventure,relaxation` | none |
 | `--pace` | `relaxed`, `moderate`, or `packed` | `moderate` |
 | `--seed` | Optional integer seed for reproducible output | random |
+| `--list-destinations` | Print every known destination name (with country/region) and exit | off |
 
 ## Example output
 

@@ -19,6 +19,7 @@ from travel_planner.itinerary import (
     PACE_ACTIVITIES_PER_DAY,
     PlannerError,
     generate_itinerary,
+    load_destinations,
 )
 
 
@@ -34,7 +35,12 @@ def build_parser() -> argparse.ArgumentParser:
         "one matching your interests. Default: surprise me.",
     )
     parser.add_argument(
-        "--days", type=int, required=True, help="Number of days for the trip."
+        "--days", type=int, default=None, help="Number of days for the trip."
+    )
+    parser.add_argument(
+        "--list-destinations",
+        action="store_true",
+        help="Print every known destination name (with country/region) and exit.",
     )
     parser.add_argument(
         "--budget",
@@ -104,6 +110,16 @@ def format_itinerary(itinerary: dict) -> str:
 def main(argv=None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
+
+    if args.list_destinations:
+        destinations = load_destinations()
+        for dest in sorted(destinations, key=lambda d: d["name"]):
+            print(f"{dest['name']} ({dest['country']}, {dest['region']})")
+        return 0
+
+    if args.days is None:
+        print("Error: --days is required (unless using --list-destinations).", file=sys.stderr)
+        return 1
 
     interests = [i for i in args.interests.split(",") if i.strip()]
 

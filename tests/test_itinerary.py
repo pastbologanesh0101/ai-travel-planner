@@ -246,6 +246,19 @@ class ItineraryGenerationTests(unittest.TestCase):
                 pace="moderate",
             )
 
+    def test_zero_days_raises_planner_error(self):
+        # Boundary case: 0 is not a positive integer, so it should be
+        # rejected the same way negative values are, rather than silently
+        # producing an empty itinerary.
+        with self.assertRaises(PlannerError):
+            generate_itinerary(
+                destination="Kyoto",
+                days=0,
+                budget="mid",
+                interests=[],
+                pace="moderate",
+            )
+
     def test_graceful_handling_when_activities_run_out(self):
         # Requesting far more days than a destination has unique activities
         # for should not crash or produce duplicates; it should simply stop
@@ -263,6 +276,43 @@ class ItineraryGenerationTests(unittest.TestCase):
             a["name"] for d in itinerary["day_plans"] for a in d["activities"]
         ]
         self.assertEqual(len(names), len(set(names)))
+
+
+class CLIEndToEndTests(unittest.TestCase):
+    """Exercises plan.py as a subprocess, not just the library functions."""
+
+    def test_cli_produces_expected_output_for_known_seed(self):
+        import subprocess
+
+        script_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "plan.py")
+        result = subprocess.run(
+            [
+                sys.executable, script_path,
+                "--destination", "Kyoto",
+                "--days", "2",
+                "--budget", "mid",
+                "--interests", "culture,food",
+                "--pace", "relaxed",
+                "--seed", "42",
+            ],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Trip to Kyoto", result.stdout)
+        self.assertIn("Estimated total cost:", result.stdout)
+
+    def test_cli_reports_error_for_unknown_destination(self):
+        import subprocess
+
+        script_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "plan.py")
+        result = subprocess.run(
+            [sys.executable, script_path, "--destination", "Atlantis", "--days", "2"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("Error:", result.stderr)
 
 
 if __name__ == "__main__":
